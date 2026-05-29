@@ -6,7 +6,8 @@ const services = [
     description:
       "We help students build practical skills, learn AI technologies, gain confidence, and work on real-world projects for successful careers.",
     image:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    //image 
+      "assests/images/training.jpg",
     icon: "🎓",
   },
 
@@ -15,7 +16,8 @@ const services = [
     description:
       "We build scalable, user-friendly websites and software solutions for startups, schools, hospitals, hotels, and businesses.",
     image:
-      "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+    //image 
+      "assets/images/web-development.jpg",
     icon: "💻",
   },
 
@@ -24,7 +26,8 @@ const services = [
     description:
       "We create fast, secure, and user-friendly Android, iOS, and cross-platform mobile apps for modern businesses.",
     image:
-      "https://images.unsplash.com/photo-1551650975-87deedd944c3",
+    //image
+      "assets/images/mobile-app.jpg",
     icon: "📱",
   },
 
@@ -33,7 +36,8 @@ const services = [
     description:
       "Modern and engaging UI/UX designs for websites, dashboards, mobile apps, and business platforms.",
     image:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    //image
+      "assets/images/uiux.jpg",
     icon: "🎨",
   },
 
@@ -42,7 +46,7 @@ const services = [
     description:
       "We provide updates, bug fixing, monitoring, and technical support to keep systems secure and optimized.",
     image:
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+      "assets/images/maintenance.jpg",
     icon: "🛠️",
   },
 ];
