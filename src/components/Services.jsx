@@ -1,13 +1,17 @@
 import React from "react";
+import appdevlopment from "../assets/appdevlopment.jpeg";
+import maintenance from "../assets/maintenance.jpeg";
+import skillbased from "../assets/skillbased.jpeg";
+import uiux from "../assets/uiux.jpeg";
+import webdevlopment from "../assets/webdevlopment.jpeg";
+
 
 const services = [
   {
     title: "Skill-Based Training",
     description:
       "We help students build practical skills, learn AI technologies, gain confidence, and work on real-world projects for successful careers.",
-    image:
-    //image 
-      "assests/images/training.jpg",
+    image: skillbased,
     icon: "🎓",
   },
 
@@ -15,9 +19,7 @@ const services = [
     title: "Web & Software Development",
     description:
       "We build scalable, user-friendly websites and software solutions for startups, schools, hospitals, hotels, and businesses.",
-    image:
-    //image 
-      "assets/images/web-development.jpg",
+    image: webdevlopment,
     icon: "💻",
   },
 
@@ -25,9 +27,7 @@ const services = [
     title: "Mobile App Development",
     description:
       "We create fast, secure, and user-friendly Android, iOS, and cross-platform mobile apps for modern businesses.",
-    image:
-    //image
-      "assets/images/mobile-app.jpg",
+    image: appdevlopment,
     icon: "📱",
   },
 
@@ -35,9 +35,7 @@ const services = [
     title: "UI/UX Design",
     description:
       "Modern and engaging UI/UX designs for websites, dashboards, mobile apps, and business platforms.",
-    image:
-    //image
-      "assets/images/uiux.jpg",
+    image: uiux,
     icon: "🎨",
   },
 
@@ -45,8 +43,7 @@ const services = [
     title: "Maintenance & Support",
     description:
       "We provide updates, bug fixing, monitoring, and technical support to keep systems secure and optimized.",
-    image:
-      "assets/images/maintenance.jpg",
+    image: maintenance,
     icon: "🛠️",
   },
 ];
@@ -61,7 +58,7 @@ const Services = () => {
           Our Services
         </h2>
 
-        <p className="text-gray-300 text-lg max-w-4xl mx-auto leading-8">
+        <p className="text-gray-300 text-lg max-w-4xl mx-auto leading-8 tracking-wide">
           We provide innovative digital solutions that help students,
           startups, businesses, and enterprises grow with modern
           technology and creative development services.
@@ -98,7 +95,7 @@ const Services = () => {
               </h3>
 
               {/* Description */}
-              <p className="text-gray-700 leading-7 mb-8 flex-grow">
+              <p className="text-gray-700 leading-7 mb-8 flex-grow tracking-wide">
                 {service.description}
               </p>
 
